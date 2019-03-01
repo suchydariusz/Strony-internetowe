@@ -1,0 +1,585 @@
+body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+   font-family: 'Open Sans' , serif, sans-serif;
+}
+    
+h2{
+  font-family: 'Merriweather', serif;  
+}
+    
+h3{
+    font-family: 'Merriweather', serif;
+}
+    
+h4{
+    font-family: 'Open Sans', sans-serif;
+}
+    
+h5{
+    font-family: 'Merriweather', serif;  
+}
+
+h6{
+    font-family: 'Merriweather', serif;
+}
+    
+p{
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+    font-size: 350%;
+}
+
+
+.text-orange-color {
+    color: #f1c40f;
+}
+
+.navbar-brand {
+    color: white!important;
+/*    background-color: #000;*/
+}
+
+.navbar-brand img {
+     width: 50px; 
+    height: 50px; 
+}
+
+.navbar-collapse {
+/*    background-color: #000;*/
+}
+
+.my-nav {
+/*    position: absolute;*/
+    
+    width: 100%;
+    z-index: 999;
+    background: rgba(0,0,0,0.2);
+    border: 0;
+    border-radius: 0;
+}
+
+.my-nav ul li a {
+    color: #fff!important;
+/*    transition: border 1s;*/
+    transition: color 0.5s;
+/*    text-transform: uppercase;*/
+    min-height: 16px;
+
+}
+
+.my-nav ul li a:hover {
+    color: #f1c40f!important;
+    transition: color 0.5s;
+    
+} 
+
+.my-nav li a.active {
+    color: #f1c40f!important;
+    border-left: 2px solid #f1c40f;
+/*    border-right: 2px solid #f1c40f;*/
+    border-radius: 0%;
+} 
+.my-nav li a:hover:not(.active) {
+    color: #000;
+} 
+
+
+
+/*
+.my-nav .navbar-nav a {
+    color: #fff!important;
+}
+*/
+
+.my-nav .navbar-nav .dropdown a {
+    color: #000;
+}
+
+.dropdown-menu {
+    background: rgba(0,0,0,0.2);
+}
+
+a.dropdown-item:hover {
+    background: rgba(0,0,0,0.2);
+}
+
+
+
+.my-carousel {
+/*    width: 100%;*/
+    margin-top: -100px; /*moze byc potrzeba zwiekszyc nachodzenie na menu*/
+/*    position: absolute;*/
+}
+
+.carousel-item img {
+/*    margin-bottom: -5%;*/
+    -webkit-filter: contrast(70%);filter: contrast(70%);
+}
+
+.carousel-caption {
+    top: 30%;
+}
+
+.carousel-left {
+    text-align: left;
+}
+
+.carousel-buttons {
+    padding-top: 9%;
+}
+
+.my-orange-button {
+    padding: 15px 30px;
+    background-color: #f1c40f;
+    color: #fff;
+    font-size: 120%;
+    text-transform: uppercase;
+    transition: background-color 1s;
+}
+
+.my-orange-button:hover {
+/*    padding: 15px 30px;*/
+    background-color: #34495e;
+    transition: background-color 0.5s;
+/*    color: #fff;*/
+/*    font-size: 120%;*/
+}
+
+.white-hr {
+    float: left;
+    width: 50%;
+    height: 2px; 
+    background: #fff; 
+    border: 0px;
+}
+
+.section1 {
+/*    width: 100%;*/
+    margin-top: 70px;
+}
+
+.h1-color-center {
+    text-align: center;
+    font-size: 300%;
+    color: #2c3e50;
+}
+
+.top-services {
+    padding-bottom: 30px;
+}
+
+.hr-short-orange {
+    width: 40%;
+    height: 1px; 
+    background: #f1c40f; 
+    border: 0px;
+}
+
+
+.fa-border {
+    background-color: #f1c40f;
+    height: 78px;
+    width: 78px;
+}
+
+.fa-building:before {
+    padding-left: 4px;
+}
+
+.fa-hourglass-half:before {
+    padding-left: 7px;
+}
+
+.fa-paint-roller:before {
+    padding-left: 3px;
+}
+
+.fa-shipping-fast:before {
+    margin-left: -4px;
+}
+
+.services-icon {
+    float: left;
+}
+
+.services-icon i{
+    margin-top: 50%;
+    border-radius: 100%;
+    border: 3px solid #f1c40f;
+    color: #fff;
+/*    color :#fff;*/
+/*    float: left;*/
+/*
+    margin-left: auto;
+    margin-right: auto;
+*/
+/*
+    border: 40px solid orange;
+    border-radius: 50%;
+*/
+    
+}
+
+.fas {
+    transition: 1s;
+}
+
+.fas-hover {
+    transform: rotate(360deg);
+    transition: transform 1s;
+    color: #f1c40f!important;
+    border: 3px solid #f1c40f;
+    background-color: #fff;
+}
+
+.services {
+    padding-bottom: 40px;
+    float: left;
+/*
+    padding-left: 2%;
+    padding-right: 2%;
+*/
+}
+
+.services h4{
+    text-align: left;
+    color: #34495e
+}
+
+.services p {
+    text-align: left;
+    color: #7f8c8d;
+}
+
+.fa-plus-square  {
+    color: #fff;
+    transition: 1s;
+}
+
+.fa-plus-square-hover  {
+    color: #f1c40f;
+    transform: rotate(180deg);
+    transition: transform 1s;
+}
+
+.parallax {
+    /* The image used */
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("images/parallax1.jpg");
+    /* Set a specific height */
+    min-height: 500px; 
+/*    -webkit-filter: contrast(120%);filter: contrast(120%);*/
+/*    -webkit-filter: brightness(0.40);filter: brightness(0.40);*/
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-head h2{
+    padding-top: 30px;
+    font-size: 250%;
+    text-align: center;
+    color: #fff;
+}
+
+.thumbnail {
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width:100%;
+
+}
+
+
+/*
+.caption h3{
+    color: #fff;
+}
+*/
+
+.paral-image {
+    padding-top: 30px;
+    width: 100%;
+    height: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    transition: transform 1s;
+    filter:brightness(110%);
+}
+
+.paral-image-hover {
+    filter:brightness(80%);
+    transform: scale(1.1,1.1);
+    transition: transform 1s;
+}
+
+.text-image {
+    /* color: transparent; */
+    text-align: center;
+    color: #fff;
+}
+
+.what-offer {
+    padding-top: 50px;
+    background-color: #fff;
+}
+
+.cards-what-offer {
+    padding-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;;
+    padding-bottom: 6%;
+}
+
+.small-orange-button {
+    padding: 8px 15px;
+    background-color: #f1c40f;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 100%;
+    transition: background-color 1s;
+}
+
+.small-orange-button:hover {
+    background-color: #34495e;
+    color: #fff;
+    transition: background-color 0.5s;
+}
+
+.cards-what-offer .card {
+    box-shadow: 0px 7px 15px 0px rgba(0,0,0,0.75);
+}
+
+.about {
+    padding-top: 50px;
+    background-color: #34495e;
+    color: #fff;
+}
+
+.about ul {
+    list-style-type: none;
+}
+
+.about h3{
+    text-align: center;
+}
+
+.about h1{
+    color: #fff;
+}
+
+.about-why {
+    padding-top: 50px;
+}
+
+.about-why h3{
+    padding-bottom: 50px;
+}
+
+.gallery-top {
+    height: 100%;
+    width: 100%;
+    padding-bottom: 20px;
+    padding-right: 15px;
+}
+
+.gallery {
+    height: 100%;
+    width: 100%;
+    padding-bottom: 20px;
+    padding-right: 15px;
+}
+
+.gallery:hover {
+    filter: brightness(130%);
+}
+
+.top-footer {
+    padding-top: 40px;
+    height: 460px;
+    background-color: #2f3542;
+    color: #fff;
+    
+    
+}
+
+.top-footer img{
+    margin-left: 25%;
+    width: 15%;
+    float: left;
+}
+
+.top-footer h3 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.top-footer h4 {
+    padding-top: 4%;
+    margin-left: 22%;
+}
+
+.top-footer ul {
+    padding-top: 5%;
+    list-style-type: none;
+    text-align: center;
+}
+
+.top-footer ul li a{
+    text-decoration: none;
+    color: #747d8c;
+}
+
+.top-footer ul li a:hover{
+    color: white;
+}
+
+.top-footer .contact-info {
+    padding-top: 5%;
+    text-align: center;
+}
+
+.top-footer .contact-info h6 {
+    padding: 10px 0px 10px 0px;
+    font-style: italic;
+}
+
+.top-footer-icons {
+    padding-top: 20px;
+}
+
+.top-footer-icons i{
+    padding: 0px 8px 0px 8px;
+}
+
+.fa-facebook:hover {
+    color: #5352ed;
+}
+
+.fa-twitter:hover {
+    color: #70a1ff;
+}
+
+.fa-google-plus-g:hover {
+    color: #ff4757;
+}
+
+.down-footer {
+    padding-top: 20px;
+    height: 100px;
+    background-color: #1e272e;
+}
+
+.down-footer p {
+    color: #fff;
+    text-align: center;
+}
+
+
+/*
+.lighter-photo-effect-gallery {
+    filter:brightness(120%);
+}
+*/
+
+
+
+.footer-hr {
+    margin-left: 25%;
+    width: 50%;
+    height: 2px; 
+    background: #f1c40f; 
+    border: 0px;
+}
+
+a.goToMain {
+    color: #f1c40f;
+}
+
+a.goToMain:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+/* mobile */
+
+@media screen and (max-width: 800px) {
+    h1 {
+        font-size: 140%;
+    }
+    
+    h3{
+        font-size: 115%;
+    }
+    
+    h4{
+        font-size: 100%;
+    }
+    
+    h5{
+        font-size: 80%;
+    }
+    
+    p{
+        font-size: 80%;
+    }
+    
+    .my-carousel{
+        padding-top: 100px;
+        width: 100%;
+    }
+        
+    .section1 {
+        padding-left: 10%;
+    }
+    
+    .parallax {
+        padding-bottom: 50px;
+    }
+    
+    div.col-12.col-md-4 {
+        padding-bottom: 30px;
+    }
+    
+  
+    .about-why ul{
+        padding-right: 5%;
+    }
+    
+    .top-footer {
+        height: 1050px;
+    }
+    
+    .top-footer ul {
+        text-align: center;
+
+    }
+    .navbar-light{
+        background-color: #2f3542;
+    }
+    
+    .navbar-toggler{  
+        background-color: #fff;
+    }
+    
+    a.nav-link.active {
+        padding-left: 3%;
+    }
+}
+
+    
+    

@@ -1,0 +1,540 @@
+body,
+html {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+
+}
+
+nav {
+    width: 70%;
+    height: 100px;
+}
+
+.nav-contact {
+    width: 30%;
+    color: #000;
+    height: 100px;
+    background-color: #f8f9fa;
+}
+
+.nav-contact .fa-phone {
+    padding: 40% 10%;
+    color: #f1c40f;
+}
+
+#navbarNavDropdown {
+    text-transform: uppercase;
+}
+
+.active > .nav-link {
+    color: #f1c40f !important;
+    font-style: italic;
+}
+
+.nav-link {
+    transition: all 0.7s;
+    padding: 39px 0;
+    height: 100px;
+
+}
+
+.nav-link:hover {
+    background-color: #f1c40f;
+    color: #fff !important;
+}
+
+
+.other-color {
+    color: #000;
+}
+
+.nav-contact .fa-map-marker-alt {
+    padding-top: 17%;
+    color: #f1c40f;
+}
+
+/*
+.top-icon {
+    padding-top: 38%;
+}
+*/
+
+.brand-icon {
+    padding-left: 20%;
+    width: 60%;
+}
+
+.collapse {
+    width: 100%;
+}
+
+.my-carousel {
+    padding-top: 60px;
+}
+
+.my-carousel img {
+    filter: brightness(0.7);
+}
+
+h1.display-1 {
+    position: absolute;
+    left: -50px;
+    top: -450px;
+}
+
+h3.display-4 {
+    position: absolute;
+    left: -50px;
+    top: -340px;
+}
+
+.carousel-button {
+    position: absolute;
+    left: 5%;
+    top: -200px;
+    padding: 20px 50px;
+    text-transform: uppercase;
+    border-radius: 0;
+    background-color: #f1c40f;
+    font-size: 20px;
+}
+
+.carousel-button:hover {
+    background-color: #27ae60;
+    color: #fff;
+}
+
+.menu-box {
+    /*    padding-top: 50px;*/
+    padding: 50px 3% 3% 3%;
+}
+
+.menu-box h1 {
+    padding-bottom: 40px;
+}
+
+.h1-border-lr {
+    border-left: 2px solid #000;
+    border-right: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+
+.card {
+    margin-top: 30px;
+    /*    border: 11px solid #fff;*/
+    /*    transition: transform 1s;*/
+    transition: transform 1s, box-shadow 1s;
+    border: 0px;
+}
+
+.card-img {
+    filter: brightness(0.8);
+
+}
+
+.card-title {
+    text-align: center;
+    padding-top: 40%;
+}
+
+.card-img-overlay h1 {
+    font-size: 300%;
+    transition: padding-top 0.5s;
+
+}
+
+.parallax {
+    /* The image used */
+    background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url("images/atmosfera.jpg");
+    /* Set a specific height */
+    min-height: 400px;
+    /*    -webkit-filter: contrast(120%);filter: contrast(120%);*/
+    /*    -webkit-filter: brightness(0.40);filter: brightness(0.40);*/
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 5%;
+}
+
+.parallax-text h1 {
+    padding-top: 10%;
+    /*    float: right;*/
+    text-transform: uppercase;
+    font-size: 250%;
+    text-align: center;
+    color: #fff;
+}
+
+.parallax-text h4 {
+    /*    float: right;*/
+    text-align: left;
+    color: #fff;
+    padding-bottom: 5%;
+}
+
+.parallax-button {
+    padding: 20px 40px;
+    text-transform: uppercase;
+    border-radius: 0;
+    background-color: #f1c40f;
+    font-size: 20px;
+}
+
+.parallax-button:hover {
+    background-color: #27ae60;
+    color: #fff;
+}
+
+.services {
+    padding-top: 10%;
+    padding-bottom: 10%;
+
+}
+
+.services img {
+    width: 50%;
+    transition: transform 2s;
+}
+
+
+.short-orange-hr {
+    border-bottom: 2px solid #f1c40f;
+    width: 70%;
+}
+
+.gallery {
+    padding-bottom: 5%;
+}
+
+.gallery img {
+    /*    position: relative;*/
+    transition: transform 1s;
+    width: 25%;
+    /*    max-width: 100%; */
+    float: left;
+
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+}
+
+.reservation-form {
+    /*    margin-top: 50px;*/
+    /*    border: 2px solid #bdc3c7;*/
+    box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.1);
+    /*    margin-bottom: 100px;*/
+    padding: 25px;
+}
+
+.reservation {
+    margin-bottom: 100px;
+}
+
+.reservation h1 {
+    padding-bottom: 40px;
+}
+
+.under-form {
+    float: left;
+}
+
+.under-form h5 {
+    color: #95a5a6;
+    padding-top: 1%;
+    padding-left: 5%;
+}
+
+.google-map {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    height: 500px;
+    padding-bottom: 20px;
+}
+
+footer {
+    height: 450px;
+    background-color: #2d3436;
+}
+
+footer img {
+    width: 30%;
+}
+
+footer hr {
+    border-bottom: 1px solid #f1c40f;
+}
+
+footer h5,
+h3 {
+    color: #fff;
+}
+
+.footer-edit {
+    padding: 70px 0px 0px 70px;
+}
+
+.contact-list li {
+    color: #fff;
+}
+
+.contact-left {
+    line-height: 100%;
+}
+
+.gray-col {
+    color: #636e72;
+}
+
+.menu-list {
+    list-style-type: none;
+}
+
+.menu-list li {
+    color: #636e72;
+    transition: padding-left 2s;
+}
+
+.menu-list li:hover {
+    padding-left: 10%;
+    color: #f1c40f;
+}
+
+footer .fab {
+    padding: 20px;
+}
+
+.wh-col {
+    color: #fff;
+    font-size: 25px;
+}
+
+footer .fa-2x {
+    color: #636e72;
+}
+
+footer .fa-2x:hover {
+    color: #fff;
+}
+
+.down-footer p {
+    text-align: center;
+    color: #fff;
+}
+
+.down-footer a {
+    color: #f1c40f;
+}
+
+.down-footer a:hover {
+    color: #636e72;
+}
+
+@media screen and (max-width: 800px) {
+
+    h1 {
+        font-size: 140%;
+    }
+
+    h3 {
+        font-size: 115%;
+    }
+
+    h4 {
+        font-size: 90%;
+    }
+
+    h5 {
+        font-size: 80%;
+    }
+
+    p {
+        font-size: 80%;
+    }
+
+    .mob {
+        font-size: 40%;
+    }
+
+    nav {
+        width: 100%;
+        height: 16%;
+    }
+
+    .navbar {
+        background-color: #fff !important;
+        width: 100%;
+    }
+
+    .nav-contact {
+        width: 0%;
+        height: auto;
+        visibility: hidden;
+    }
+
+    .brand-icon {
+        width: 55%;
+    }
+
+    .navbar-brand {
+        width: 70%;
+        height: 100%;
+    }
+
+    .navbar-nav {
+        padding-top: 4%;
+    }
+
+    .nav-link {
+        width: 100%;
+        background-color: #f8f9fa;
+        padding: 15px;
+        height: 50px;
+    }
+
+    .my-carousel {
+        padding-top: 30%;
+    }
+
+    .parallax-text h1 {
+        font-size: 200%;
+    }
+
+    .parallax-text h4{
+        padding-top: 10%;
+        text-align: center;
+        padding-bottom: 10%;
+    }
+
+    .parallax-button {
+        display: block;
+        margin: 0 auto;
+    }
+
+    #servhov1,
+    #servhov2,
+    #servhov3,
+    #servhov4 {
+        padding-bottom: 5%;
+    }
+
+    .gallery img {
+        width: 50%;
+    }
+
+    button.btn.parallax-button.under-form {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        font-size: 110%;   
+    }
+
+    footer {
+        height: 800px;
+    }
+
+    .footer-edit {
+        text-align: center;
+        padding: 20px 0px 0px 0px;
+    }
+
+    .menu-list {
+        /*       float: left;*/
+        padding-left: 0%;
+        margin: 0 auto;
+    }
+
+    footer h3 {
+        /*        float: left;*/
+        border-bottom: 1px solid #f1c40f;
+    }
+
+    footer hr {
+        visibility: hidden;
+    }
+
+}
+
+@media screen and (max-width: 800px) and (min-width: 700px) {
+
+    h1 {
+        font-size: 140%;
+    }
+
+    h3 {
+        font-size: 115%;
+    }
+
+    h4 {
+        font-size: 100%;
+    }
+
+    h5 {
+        font-size: 80%;
+    }
+
+    p {
+        font-size: 80%;
+    }
+
+    .mob{
+        font-size: 50%;
+    }
+
+    h1.card-title {
+        font-size: 190%;
+    }
+
+    .navbar {
+        height: 18%;
+    }
+    
+    .nav-link {
+        padding-top: 5%;
+        height: 10%;
+    }
+
+    .navbar-nav {
+        padding-top: 2%;
+    }
+
+    .my-carousel {
+        padding-top: 20%;
+    }
+
+
+    h1.display-1 {
+        font-size: 400%;
+        position: absolute;
+        left: -50px;
+        top: -300px;
+    }
+
+    h3.display-4 {
+        font-size: 200%;
+        position: absolute;
+        left: -50px;
+        top: -230px;
+    }
+
+    .carousel-button {
+        position: absolute;
+        left: -8%;
+        top: -150px;
+        padding: 20px 50px;
+        text-transform: uppercase;
+        border-radius: 0;
+        background-color: #f1c40f;
+        font-size: 20px;
+    }
+
+    footer {
+        height: 400px;
+    }
+    
+}
