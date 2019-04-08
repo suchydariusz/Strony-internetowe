@@ -7,7 +7,7 @@
 
     <link rel="stylesheet" href="css/portfolio4.css">
 
-    <title>Hello, world!</title>
+    <title>Villas</title>
   </head>
   <body>
      <nav>
@@ -19,55 +19,90 @@
         
         <ul class="nav-links">
           <li><a href="#">Strona Główna</a></li>
-          <li><a href="#">Modele</a></li>
+          <li><a href="#">Nasze wille i apartamenty</a></li>
           <li><a href="#">Oferty specjalne</a></li>
-          <li><a href="#">Dealerzy</a></li>
+          <li><a href="#">Znajdź miescje dla siebie</a></li>
+          <li><a href="#">Przewodniki</a></li>
           <li><a href="#">Kontakt</a></li>
         </ul>
      </nav>
 
      <div id="top-screen">
        <div class="top-screen-text">
-         <h1>Najnowszy<br>Lorem IPSUM Car</h1>
+         <img src="img/logo_white.png" alt="logo">
        </div>
      </div>
+     
+     <section class="section1 row">
+      <div class="travel-left">
+        <h1 class="abs-center">Dokąd chcesz podróżować?</h1>
+      </div>
+      <div class="travel-right">
+        <form class="travel-form">
+          <div class="row">
+              <label for="date">Data przyjazdu:</label>
+              <input type="date" value="2019-04-08"><br />
+          </div>
+          <div class="row">
+              <label for="date">Data wyjazdu:</label>
+              <input type="date" value="2019-04-08"><br />
+          </div>
+          <div class="row">
+            <label for="country">Miejsce podróży:</label>
+            <select id="country" name="country">
+              <option value="poland">Polska</option>
+              <option value="austria">Austria</option>
+              <option value="croatia">Chorwacja</option>
+              <option value="italy">Włochy</option>
+            </select><br />
+          </div>  
+          <div class="row">
+            <label for="bedrooms">Liczba sypialni:</label>
+            <select id="bedrooms" name="bedrooms">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+            </select><br />
+          </div>
+          <div class="row">
+            <label for="price">Cena</label>
+            <select id="price" name="price">
+              <option value="300">300zł - 600zł</option>
+              <option value="600">600zł - 900zł</option>
+              <option value="900">900zł - 1200zł</option>
+              <option value="1200">Powyżej 1200zł</option>
+            </select><br />
+          </div>
+          <div class="row">
+            <label for="keywords">Słowa kluczowe:</label>
+          <input type="text" value=""><br />
+        </div>
+        <div class="row">
+          <input class="go-button" type="button" value="Przejdź">
+        </div>
+          
+        </form>
+      </div>
+     </section>
+     <section class="section2 row">
+      <div class="special-left">
+          <h1 class="abs-center">Sprawdź już teraz naszą<br /> specjalną <span class="offer">ofertę</span></h1>
+      </div>
+      <div class="special-right">
+        <img src="img/offer2.jpg" alt="apartment">
+      </div>
+     </section>
+     <section class="section3 row">
+      <div class="inspiration-left">
+        <h1 class="abs-center">Potrzebujesz <br /><span class="inspiration-text">inspiracji?</span><br /><span class="inspiration-text-p">Znajdź swoje magiczne miejsce razem z nami</span></h1>
+      </div>
+      <div class="inspiration-right">
+        <p class="abs-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue metus vel justo fermentum consectetur. Ut porta pharetra nisl, non semper leo imperdiet fringilla. Fusce finibus elit ac purus luctus egestas. Donec euismod tortor eget sem rutrum vehicula. Sed vestibulum, sem quis lacinia porta, leo velit dapibus libero, eu pharetra nisi justo nec risus.<br /> <a href="#">Zobacz więcej</a></p>
+      </div>
+     </section>
 
-    <section id="section1">
-      <div class="precision-left-img">
-        <img src="img/precision-img.png" alt="create img">
-      </div>
-      <div class="precision-right">
-        <h1>Najwyższa precyzja</h1>
-        <hr class="gray-hr">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id tempor turpis,
-          et fringilla ipsum. Aenean dictum risus eu lectus laoreet sollicitudin. Aenean 
-          commodo iaculis augue ac aliquam. Aliquam vitae molestie turpis. Suspendisse 
-          placerat dolor orci, eget fermentum lectus suscipit a. Nulla dolor augue, ultricies 
-          vitae laoreet quis, tincidunt ut elit. Vestibulum pharetra nunc ligula. Aliquam mi arcu,
-           fermentum ut lobortis sit amet, tempor id dolor. </p>
-        <button class="precision-button">Zobacz więcej</button>
-      </div>
-    </section>
-    <section id="section2">
-      <div class="feel-difference-img">
-          <img src="img/feel-difference-img.png" alt="feel difference">
-          <h1>Ipsum. Poczuj różnicę</h1>
-      </div> 
-    </section>
-    <section id="section3">
-      <div class="interior-img">
-        <img src="img/interior.jpg" alt="interior">
-      </div>
-      <div class="interior-text">
-        <h1>Wnętrze klasy Premium</h1>
-        <hr>
-        <p>Sed vel nunc pretium, condimentum sapien
-            nec, bibendum neque. Etiam tempor nibh
-            sit amet est dictum accumsan. Duis massa est,
-            maximus at venenatis vitae, varius ac sapien.</p>
-      </div>
-    </section>
-      
+     
     <!-- Optional JavaScript -->
     <script src="js/app.js"></script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
