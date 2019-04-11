@@ -25,4 +25,17 @@ $(document).ready(function() {
     $('.parallax-button').on('click', function() {
         alert('klik! klik! :)');
     })
-})
+
+    /*----------serv hover---------- */
+    $('.servhov').on({
+        mouseover: function() {
+            const image = this.id + '-image';
+            $("#" + image).css("transform", "rotateX(360deg)");
+        },
+        mouseleave: function() {
+            const image = this.id + '-image';
+            $("#" + image).css("transform", "rotateX(0deg)");
+        }
+    });
+    /*----------serv hover END---------- */
+});
