@@ -1,10 +1,12 @@
-const navbar = document.querySelector('.navbar');
-const navLinks = document.querySelector('.nav-links');
-const links = document.querySelectorAll('.nav-links li')
+//---------------------   Menu open and close
+const openButton = document.querySelector('.open-btn');
+const closeButton = document.querySelector('.close-btn');
 
-navbar.addEventListener('click', () => {
-    navLinks.classList.toggle('open');
-    links.forEach(link => {
-        link.classList.toggle('fade');
-    })
+openButton.addEventListener('click', () => {
+    document.getElementById('topNav').style.width = "100%";
+}, false);
+closeButton.addEventListener('click', () => {
+    document.getElementById('topNav').style.width = "0%";
 })
+//---------------------   Menu open and close END
+

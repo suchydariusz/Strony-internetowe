@@ -11,96 +11,55 @@ body {
 
 
 /*-----------------------NAVBAR-----------------------*/
-nav {
-    width: 100%;
-    height: 10vh;
-    background: transparent;
-    position: absolute;
-    opacity: 1;
-
-}
-
-.nav-links {
-    display: flex;
-    list-style: none;
-    width: 50%;
-    height: 100%;
-    justify-content: space-around;
-    align-items: center;
-    margin-left: auto;
-}
-
-.line{
-    width: 30px;
-    height: 3px;
-    background: #fff;
-    margin: 5px;
-}
-
 .navbar {
-    position: absolute;
-    cursor: pointer;
-    right: 5%;
-    top: 50%;
-    transform: translate(-5%, -50%);
-    z-index: 2;
-}
-
-.nav-links {/*#microsoft nie ogarnia takich rzeczy #clip-path*/
-    position: fixed;
-    background: blue;
     height: 100vh;
-    width: 100%;
-    flex-direction: column;
-    /* display: none; */
-    /* clip-path: circle(50px at 100% -10%);
-    -webkit-clip-path: circle(50px at 100% -10%); */
-    clip-path: ellipse(100px 100px at 110% 0%);
-    -webkit-clip-path: ellipse(100px 100px at 110% 0%);
-    transition: all 1s ease-out;
-    pointer-events: none;
+    width: 0%;
+    position: fixed;/*stay in place*/
+    z-index: 1;/*stay at the top*/
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow-x: hidden;
+    padding-top: 10vh;
+    transition: 0.5s;
+    transform: 0.5s;
+    text-align: center;
 }
 
-.nav-links li {
-    opacity: 1;
-}
-
-
-.nav-links li.fade a {
-    font-size: 150%;
-}
-
-.nav-links li.fade a:hover {
-    font-size: 200%;
-    transition: all 1s ease-out;
-}
-
-.nav-links li:nth-child(1) {
-    transition: all 0.5s ease 0.2s;
-}
-.nav-links li:nth-child(2) {
-    transition: all 0.5s ease 0.4s;
-}
-.nav-links li:nth-child(3) {
-    transition: all 0.5s ease 0.6s;
-}
-
-.nav-links.open {/*#microsoft nie ogarnia takich rzeczy #clip-path*/
-    /* clip-path: circle(1400px at 100% -10%);
-    -webkit-clip-path: circle(1400px at 100% -10%); */
-    clip-path: ellipse(100px 100px at 10% 20%);
-    -webkit-clip-path: ellipse(1200px 1200px at 50% 50%);
-    pointer-events: all;
-    /* opacity: 0.7; */
-}
-
-
-.nav-links li a{ /*poprawic nie rec*/
-    color: #fff;
+.navbar a {
+    /* padding: 8px 8px 8px 32px; */
+    padding-top: 7vh;
     text-decoration: none;
-    font-size: 16px;
-
+    font-size: 200%;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
 }
+
+.navbar a:hover {
+    color: #74b9ff;
+}
+
+.open-btn {
+    font-size: 200%;
+    padding-left: 2%;
+    color: #fff;
+    cursor: pointer;
+}
+
+.open-btn:hover {
+    color: #000;
+    transition: all 1s;
+}
+
+.navbar .close-btn {
+    position: absolute;
+    top: 0;
+    right: 5%;
+    font-size: 300%;
+    margin-left: 50px;
+}
+
 /*--------------------NAVBAR END-------------------------------*/
 
 #top-screen {
@@ -213,37 +172,78 @@ nav {
     text-transform: uppercase;
 }
 
-.inspiration-left {
+.inspiration-left, .our-places-left {
     flex: 50%;
     position: relative;
     height: 50vh;
     background-color: #55efc4;
-}
-
-.inspiration-left {
     text-transform: uppercase;
     color: #194c6b;
 }
 
-.inspiration-text {
+.inspiration-text, .our-places-text {
     color: #fff;
     font-size: 200%;
 }
 
-.inspiration-text-p {
+.inspiration-text-p, .our-places-text-p {
     font-size: 70%;
 }
-.inspiration-right {
+.inspiration-right, .our-places-right {
     flex: 50%;
     position: relative;
     height: 50vh;
 }
 
-.inspiration-right p {
+.inspiration-right p, .our-places-right p{
     color: #636e72;
     padding: 0 10% 0 10%;
     text-align: left;
 }
+
+/*------section4-------*/
+.for-two, .for-meal, .for-conqueror, .for-family {
+    flex: 25%;
+    position: relative;
+    
+    /* align-items: center;
+    justify-content: center; */
+}
+.section4 h1 {
+    color: #fff;
+    font-size: 150%;
+    top: 85%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.for-two img {
+    width: 100%;
+}
+
+.for-meal img {
+    width: 100%;
+}
+
+.for-conqueror img {
+    width: 100%;
+}
+
+.for-family img {
+    width: 100%;
+}
+
+/*------section4 END-------*/
+
+/*------section5-------*/
+.our-places-left {
+    background-color: #fdcb6e;
+}
+
+.our-places-left a{
+    text-decoration: none;
+    color: #194c6b;
+}
+/*------section5 END-------*/
 
 @media screen and (max-width: 768px) {
 
