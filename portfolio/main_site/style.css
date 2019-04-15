@@ -237,7 +237,7 @@ h1 {
 }
 
 #portfolio {
-    height: 800px;
+    height: 1100px;
     padding-top: 110px;
     padding-bottom: 110px;
     background-color: #f2f2f2;
@@ -247,10 +247,54 @@ h1 {
     text-align: center;
 }
 
+
+
+.git-button {
+    border-radius: 4px;
+    background-color: #00b894;;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 100%;
+    padding: 20px;
+    width: 20%;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    text-align: center;
+    font-family: 'Open Sans' , serif, sans-serif;
+    margin-bottom: 4%;
+  }
+  
+  .git-button span {
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .git-button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .git-button:hover span {
+    padding-right: 25px;
+  }
+  
+  .git-button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
 #portfolio .card {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 5%;
     width: 100%;
 }
 
@@ -445,6 +489,11 @@ footer .footer-opacity-text a:hover{
         padding-top: 90px; 
         padding-bottom: 50px;
     }
+
+    .git-button {
+        width: 100%;
+        margin-bottom: 10%;
+    }
     
     .h1-center-padding {
         padding-bottom: 0px;
@@ -507,4 +556,10 @@ footer .footer-opacity-text a:hover{
         margin-top: 0%;
     }
 
+}
+
+@media screen and (min-width: 1520px) {
+    #portfolio {
+        height: 1300px;
+    }
 }

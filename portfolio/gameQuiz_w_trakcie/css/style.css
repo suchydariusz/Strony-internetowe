@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    width: 100%;
+}
+.title {
+    padding-top: 5%;
+}
+
+.content {
+    display: none;
+    position: absolute;
+    top: 15%;
+    left: 0wh;
+}
+
+.content h3 {
+    padding-top: 2%;
+}
+
+#start_button {
+    width: 20%;
+    position: absolute;
+    top: 50vh;
+    left: 40%;
+}
+
+
+#check_answer {
+    width: 20%;
+    margin-left: 40%;
+}
+
+#next_question {
+    width: 20%;
+    margin-left: 40%;
+    margin-top: 2%;
+}
+
+.points {
+    padding-top: 15%;
+    font-size: 200%;
+    text-align: center;
+}
+
+.categories {
+    display: none;
+    position: absolute;
+    top: 0vh;
+    left: 0wh;
+    padding: 10%;
+}
+.categories button{
+    margin: 10%;
+}
+
+.correct_answer {
+    color: green;
+    font-weight: bold;
+}
+
+.info {
+    position: absolute;
+    top: 70vh;
+}

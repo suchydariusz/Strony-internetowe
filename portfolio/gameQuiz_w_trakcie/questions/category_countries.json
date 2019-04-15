@@ -1,0 +1,44 @@
+{
+    "questions": [
+        {
+            "question": "Odwrócona flaga Polski to flaga:",
+            "a": "Monako",
+            "b": "Kanady",
+            "c": "USA",
+            "d": "Niemiec",
+            "correct_answer": "a"
+        },
+        {
+            "question": "Kto odkrył Amerykę?",
+            "a": "Vincent van Gogh",
+            "b": "Krzysztof Kolumb",
+            "c": "Ferdynand Kiepski",
+            "d": "Ferdynand Magellan",
+            "correct_answer": "b"
+        },
+        {
+            "question": "Jakie miasto było tłem burzliwego i tragicznego romansu Romea i Julii?",
+            "a": "Florencja",
+            "b": "Wenecja",
+            "c": "Werona",
+            "d": "Wenezuela",
+            "correct_answer": "c"
+        },
+        {
+            "question": "Na którym kontynencie znajduje sie Góra Kościuszki?",
+            "a": "w Europie",
+            "b": "w Afryce",
+            "c": "w Azji",
+            "d": "w Australii",
+            "correct_answer": "d"
+        },
+        {
+            "question": "Jaka legenda jest związana z Warszawą?",
+            "a": "O smoku wawelskim",
+            "b": "O Szymonie",
+            "c": "O wsi za miastem",
+            "d": "O Syrence",
+            "correct_answer": "d"
+        }
+    ]
+}

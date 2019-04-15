@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Quiz game</title>
+  </head>
+  <body>
+    
+    <div class="categories">
+      <div class="row">
+        <div class="col-4">
+            <button id="category_maths" type="button" class="btn btn-primary category-buttons">Matematyka i Fizyka</button>
+        </div>
+        <div class="col-4">
+            <button id="category_countries" type="button" class="btn btn-primary category-buttons">Państwa i Miasta</button>
+          </div>
+          <div class="col-4">
+              <button id="category_sport" type="button" class="btn btn-primary category-buttons">Sport</button>
+            </div>
+      </div>
+      <div class="row">
+          <div class="col-4">
+              <button id="category_animals" type="button" class="btn btn-primary category-buttons">Zwierzęta</button>
+          </div>
+          <div class="col-4">
+              <button id="category_history" type="button" class="btn btn-primary category-buttons">Historia</button>
+            </div>
+            <div class="col-4">
+                <button id="category_other" type="button" class="btn btn-primary category-buttons">Pozostałe</button>
+              </div>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col-12">
+            <h1 class="title text-center">QUIZ GAME</h1>
+        </div>
+      </div>
+
+    <div class="content">
+      
+      <div class="row">
+        <div class="col-12">
+            <h3 class="text-center">Pytanie nr.<span id="question_number"></span><span><span>/5</span><br /> </span><span id="question"> </span></h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+            <form id="quiz">
+              <div class="row">
+                <div class="col-4"></div>
+                <div class="col-2">
+                    <p class="text-left">a) <span id="answer1" class="answer">odp1</span></p>
+                </div>
+                <div class="col-1">
+                    <input type="radio" id="a" name="answer" value="a" class="text-left">
+                </div>
+                <div class="col-5"></div>
+              </div>
+              <div class="row">
+                  <div class="col-4"></div>
+                  <div class="col-2">
+                      <p class="text-left">b) <span id="answer2" class="answer">odp2</span></p>
+                  </div>
+                  <div class="col-1">
+                      <input type="radio" id="b" name="answer" value="b" class="left-block">
+                  </div>
+                  <div class="col-5"></div>
+              </div>
+              <div class="row">
+                  <div class="col-4"></div>
+                  <div class="col-2">
+                      <p class="text-left">c) <span id="answer3" class="answer">odp3</span></p>
+                  </div>
+                  <div class="col-1">
+                      <input type="radio" id="c" name="answer" value="c" class="text-left">
+                  </div>
+                  <div class="col-5"></div>
+              </div>
+              <div class="row">
+                  <div class="col-4"></div>
+                  <div class="col-2">
+                      <p class="text-left">d) <span id="answer4" class="answer">odp4</span></p>
+                  </div>
+                  <div class="col-1">
+                      <input type="radio" id="d" name="answer" value="d" class="text-left">
+                  </div>
+                  <div class="col-5"></div>
+              </div>
+              </form>
+        </div>
+      </div>
+      <div class="row">
+          <div class="col-12">
+              <button id="check_answer" type="button" class="btn btn-primary">Sprawdź odpowiedź</button>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-12">
+              <button id="next_question" type="button" class="btn btn-primary">Następne pytanie</button>
+          </div>
+      </div>
+            <div class="row points">
+              <div class="col-12">
+                  <p>Liczba punktów: <span id="result">0</span></p>
+                  <!-- <p id="result">rezultat</p> -->
+              </div>
+            </div>
+            
+            
+            <!--<p id="correct">porpawna odp</p>-->
+            
+        
+            
+          
+            
+            
+            
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <button id="start_button" type="button" class="btn btn-primary">Rozpocznij nową grę</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+            <p class="info text-center">Działa kategoria matematyka i fizyka oraz państwa i miasta</p>
+        </div>
+    </div>
+
+   
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/quiz.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,84 @@
+{
+    "questions": [
+        {
+            "question": "Jakie to liczby: 2,3,5,7,11?",
+            "a": "parzyste",
+            "b": "kolejne",
+            "c": "złożone",
+            "d": "pierwsze",
+            "correct_answer": "d"
+        },
+        {
+            "question": "W układzie SI podstawową jednostką miary długości jest:",
+            "a": "centymetr",
+            "b": "metr",
+            "c": "milimetr",
+            "d": "kilometr",
+            "correct_answer": "b"
+        },
+        {
+            "question": "Czym jest wynik dodawania?",
+            "a": "różnicą",
+            "b": "ilorazem",
+            "c": "sumą",
+            "d": "iloczynem",
+            "correct_answer": "c"
+        },
+        {
+            "question": "Delta w matematyce jest róznoznaczna z:",
+            "a": "różnicą",
+            "b": "ilorazem",
+            "c": "sumą",
+            "d": "iloczynem",
+            "correct_answer": "a"
+        },
+        {
+            "question": "Ile wynosi pole kwadratu o boku 1,5cm?",
+            "a": "1,25cm2",
+            "b": "1,75cm2",
+            "c": "2,25cm2",
+            "d": "3,5cm2",
+            "correct_answer": "c"
+        },
+        {
+            "question": "7 x 77 = ",
+            "a": "495",
+            "b": "539",
+            "c": "620",
+            "d": "449",
+            "correct_answer": "b"
+        },
+        {
+            "question": "Cegła waży 2kg i pół cegły. Ile waży cegła?",
+            "a": "6kg",
+            "b": "1kg",
+            "c": "2,5kg",
+            "d": "4kg",
+            "correct_answer": "d"
+        },
+        {
+            "question": "Jeśli x = 6 - 2x, ile wynosi x?",
+            "a": "3",
+            "b": "-6",
+            "c": "4",
+            "d": "2",
+            "correct_answer": "d"
+        },
+        {
+            "question": "3 + 3 * 3 : 3",
+            "a": "4",
+            "b": "1",
+            "c": "2",
+            "d": "6",
+            "correct_answer": "d"
+        },
+        {
+            "question": "Jeśli wskazówka godziny zegara zmieniałaby kąt o 1/60 stopnia co minutę, to o ile stopni zmieni się kąt w ciągu godziny?",
+            "a": "o 1 stopień",
+            "b": "o 360 stopni",
+            "c": "o 60 stopni",
+            "d": "o 90 stopni",
+            "correct_answer": "a"
+        }
+    ]
+}
