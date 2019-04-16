@@ -3,7 +3,7 @@ const answer1 = document.getElementById('answer1');
 const answer2 = document.getElementById('answer2');
 const answer3 = document.getElementById('answer3');
 const answer4 = document.getElementById('answer4');
-const correct = document.getElementById('correct');
+//const correct = document.getElementById('correct');
 const resultGame = document.getElementById('result');
 const questionNumber = document.getElementById('question_number');
 let questionCounter = 1;
@@ -35,13 +35,14 @@ const resetAll = () => {
     tabCounter = 0;//zerowanie licznika tablicy
     questionNumber.innerHTML = questionCounter;
     resultGame.innerHTML = result;
+    $('.answer').removeClass('correct_answer');
 }
 
 const game = () => {
     $('.category-buttons').off().on('click', (e) => {
         selectedCategory = e.target.id;
         $('.categories').css({'display': 'none'});
-        $('.content').css({'display': 'block'});
+        $('.content, #check_answer').css({'display': 'block'});
     
         getQuestion();
         checkAnswer();

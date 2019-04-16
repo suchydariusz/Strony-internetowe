@@ -1,64 +1,130 @@
 * {
     margin: 0;
     width: 100%;
+} 
+
+h1 {
+    font-family: 'Righteous', cursive;
+}
+
+.btn {
+    font-family: 'Inconsolata', monospace;
+    font-weight: bold;
 }
 .title {
-    padding-top: 5%;
+    padding: 5% 0 3% 0;
 }
 
 .content {
     display: none;
-    position: absolute;
-    top: 15%;
-    left: 0wh;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100%;
 }
 
-.content h3 {
-    padding-top: 2%;
-}
 
 #start_button {
-    width: 20%;
+    background-color: #2ecc71; 
+    border: 0;
+    padding: 2% 0;
+    /* width: 20%;
     position: absolute;
     top: 50vh;
-    left: 40%;
+    left: 40%; */
+}
+
+#start_button:hover {
+    background-color: #27ae60; 
 }
 
 
 #check_answer {
-    width: 20%;
-    margin-left: 40%;
+    margin-bottom: 10%;
+    display: none;
+    background-color: #f1c40f; 
+    border: 0;
+}
+
+#check_answer:hover {
+    background-color: #f39c12; 
 }
 
 #next_question {
-    width: 20%;
+    display: none;
+    background-color: #8e44ad; 
+    border: 0;
+    /* width: 20%;
     margin-left: 40%;
-    margin-top: 2%;
+    margin-top: 2%; */
 }
 
+/*CATEGORY BUTTONS*/
+.categories button {
+    margin: 0 0 15% 10%;
+    padding: 5%;
+    border: 0;
+}
+
+.categories button:hover {
+    -webkit-filter: drop-shadow(2px 2px 2px #000);
+    filter: drop-shadow(2px 2px 2px #000);
+}
+
+#category_maths {
+    background-color: #5352ed;
+}
+
+#category_countries {
+    background-color: #ff4757;
+}
+
+#category_sport {
+    background-color: #e77f67;
+}
+
+#category_animals {
+    background-color: #ffb8b8;
+}
+
+#category_history {
+    background-color: #747d8c;
+}
+
+#category_other {
+    background-color: #67e6dc;
+}
+/*CATEGROY BUTTONS END*/
 .points {
-    padding-top: 15%;
+    padding: 10% 0 10% 0;
     font-size: 200%;
     text-align: center;
+    font-family: 'Inconsolata', monospace;
 }
 
 .categories {
     display: none;
-    position: absolute;
+    padding-left: 20%;
+    /* border: 1px solid #000; */
+    /* position: absolute;
     top: 0vh;
     left: 0wh;
-    padding: 10%;
+    padding: 10%; */
 }
-.categories button{
-    margin: 10%;
-}
+
 
 .correct_answer {
     color: green;
     font-weight: bold;
 }
 
-.info {
-    position: absolute;
-    top: 70vh;
+@media screen and (max-width: 800px) {
+    .content h3{
+        font-size: 120%;
+    }
+    
 }
+
+/* @media screen and (max-width: 800px) and (min-width: 700px) {
+
+
+} */
+
