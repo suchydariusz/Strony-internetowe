@@ -1,20 +1,84 @@
 {
     "questions": [
         {
-            "question": "Ile nóg ma ryba?",
-            "a": "1",
-            "b": "2",
-            "c": "3",
-            "d": "nie ma nóg",
+            "question": "Ile mrówek przypada na jednego człowieka?",
+            "a": "1000000",
+            "b": "100000",
+            "c": "10",
+            "d": "1000",
+            "correct_answer": "a"
+        },
+        {
+            "question": "Czy ptaki umieją fruwać do tyłu?",
+            "a": "Potrafią",
+            "b": "Potrafią jeśli odpowiednio wieje wiatr",
+            "c": "Tylko kolibry potrafią",
+            "d": "Nie potrafią",
+            "correct_answer": "c"
+        },
+        {
+            "question": "Które z tych zwierząt jest ssakiem",
+            "a": "Rekin",
+            "b": "Nietoperz",
+            "c": "Struś",
+            "d": "Krokodyl",
             "correct_answer": "b"
         },
         {
-            "question": "Ile głów ma żyrafa?",
-            "a": "4",
-            "b": "2",
-            "c": "7",
-            "d": "nie wiem",
+            "question": "Do czego kangury używają swoich ogonów?",
+            "a": "Do zabawy z dziećmi",
+            "b": "Dla lepszego balansu podczas skoków",
+            "c": "Aby oganiać się od owadów",
+            "d": "Aby się na nich podpierać",
+            "correct_answer": "b"
+        },
+        {
+            "question": "Którę zwierzę jest szybsze od konia, a samiec tego gatunku potrafi ryczeć jak lew?",
+            "a": "Koza",
+            "b": "Struś",
+            "c": "Owca",
+            "d": "Panda",
+            "correct_answer": "b"
+        },
+        {
+            "question": "Która istota morska śpi z jednym okiem otwartym?",
+            "a": "Delfin",
+            "b": "Konik morski",
+            "c": "Ośmiornica",
+            "d": "Meduza",
             "correct_answer": "a"
+        },
+        {
+            "question": "Która informacja na temat bobrów jest prawdziwa?",
+            "a": "Samice rodzą potomstwo tylko raz",
+            "b": "Całe życie starają się przedostać jak najbliżej morza",
+            "c": "Na starość tracą futro",
+            "d": "Ich zęby nigdy nie przestają rosnąć",
+            "correct_answer": "d"
+        },
+        {
+            "question": "Jaki procent swojego życia przesypia leniwiec?",
+            "a": "20%",
+            "b": "40%",
+            "c": "80%",
+            "d": "60%",
+            "correct_answer": "c"
+        },
+        {
+            "question": "Które zwierzę ma niespotykany niebiesko-czarny kolor języka?",
+            "a": "Krokodyl",
+            "b": "Żyrafa",
+            "c": "Wiewiórka",
+            "d": "Jednorożec",
+            "correct_answer": "b"
+        },
+        {
+            "question": "Dlaczego flamingi są różowe?",
+            "a": "To jest ich naturalny kolor",
+            "b": "Kolor służy jako ich kamuflaż",
+            "c": "Ponieważ jedzą plankton i krewetki",
+            "d": "Przybierają ten kolor podczas dojrzewania",
+            "correct_answer": "c"
         }
     ]
 }

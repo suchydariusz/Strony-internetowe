@@ -1,20 +1,58 @@
 {
     "questions": [
         {
-            "question": "Ile nóg ma ryba?",
-            "a": "1",
-            "b": "2",
-            "c": "3",
-            "d": "nie ma nóg",
+            "question": "W którym roku odbyły się Igrzyska Olimpijskie w Moskwie zbojkotowane przez około 60 państw?",
+            "a": "1984",
+            "b": "1980",
+            "c": "1976",
+            "d": "1988",
             "correct_answer": "b"
         },
         {
-            "question": "Ile głów ma żyrafa?",
-            "a": "4",
-            "b": "2",
-            "c": "7",
-            "d": "nie wiem",
+            "question": "Którą z wymienionych dyscyplin sportowych uprawiał Waldemar Baszanowski?",
+            "a": "Podnoszenie ciężarów",
+            "b": "Pchnięcie kulą",
+            "c": "Rzut młotem",
+            "d": "Zapasy",
             "correct_answer": "a"
+        },{
+            "question": "Który polski bokser zdobył dwa złote medale olimpijskie?",
+            "a": "Jerzy Kulej",
+            "b": "Jerzy Grudzień",
+            "c": "Leszek Drogosz",
+            "d": "Zbigniew Pietrzykowski",
+            "correct_answer": "a"
+        },
+        {
+            "question": "W którym z wymienionych miast NIE odbyły się letnie igrzyska olimpijskie?",
+            "a": "Paryż",
+            "b": "Tokio",
+            "c": "Wiedeń",
+            "d": "Los Angeles",
+            "correct_answer": "c"
+        },{
+            "question": "Władysław Komar zdobył złoty medal w pchnięciu kulą na olimpiadzie w?",
+            "a": "Los Angeles w 1984",
+            "b": "Moskwie w 1980",
+            "c": "Montrealu w 1976",
+            "d": "Monachium w 1972",
+            "correct_answer": "d"
+        },
+        {
+            "question": "W której konkurencji Arkadiusz Skrzypaszek zdobył dwa złote medale w 1992 roku na Letnich Igrzyskach Olimpijskich w Barcelonie?",
+            "a": "Pięciobój nowoczesny",
+            "b": "Lekka atletyka",
+            "c": "Pływanie",
+            "d": "Kajakarstwo",
+            "correct_answer": "a"
+        },
+        {
+            "question": "Józef Szmidt zdobył dwa złote medale olimpijskie (w 1960 w Rzymie i w 1964 w Tokio) w?",
+            "a": "Skoku w dal",
+            "b": "Trójskoku",
+            "c": "Skoku wzwyż",
+            "d": "Skakaniu na skakance",
+            "correct_answer": "b"
         }
     ]
 }

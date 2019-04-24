@@ -1,19 +1,83 @@
 {
     "questions": [
         {
-            "question": "Ile nóg ma ryba?",
-            "a": "1",
-            "b": "2",
-            "c": "3",
-            "d": "nie ma nóg",
+            "question": "Do krajów członkowskich Arabskiej Unii Maghrebu NIE należy?",
+            "a": "Maroko",
+            "b": "Kenia",
+            "c": "Algeria",
+            "d": "Libia",
             "correct_answer": "b"
         },
         {
-            "question": "Ile głów ma żyrafa?",
-            "a": "4",
-            "b": "2",
-            "c": "7",
-            "d": "nie wiem",
+            "question": "Słupek z otworami znajdujący się w pobliżu paśnika, w którym umieszczono kostkę soli kamiennej, to?",
+            "a": "Lizawka",
+            "b": "Solanka",
+            "c": "Solniczka",
+            "d": "Liźnik",
+            "correct_answer": "a"
+        },
+        {
+            "question": "Lobomykoza należy do chorób?",
+            "a": "Pasożytniczych",
+            "b": "Wirusowych",
+            "c": "Bakteryjnych",
+            "d": "Grzybiczych",
+            "correct_answer": "d"
+        },
+        {
+            "question": "Podaj symbol skandu?",
+            "a": "Sa",
+            "b": "S",
+            "c": "Sc",
+            "d": "Sn",
+            "correct_answer": "c"
+        },
+        {
+            "question": "James Watt był twórcą ulepszeń konstrukcji?",
+            "a": "Telefonu",
+            "b": "Telegrafu",
+            "c": "Radia",
+            "d": "Maszyny parowej",
+            "correct_answer": "d"
+        },
+        {
+            "question": "Salvador Dali to jeden z najbardziej znanych?",
+            "a": "Surrealistów",
+            "b": "Impresjonistów",
+            "c": "Marynistów",
+            "d": "Batalistów",
+            "correct_answer": "a"
+        },
+        {
+            "question": "Jezioro Titicaca znajdziemy w?",
+            "a": "Ameryce Północnej",
+            "b": "Ameryce Połudiowej",
+            "c": "Azji",
+            "d": "Afryce",
+            "correct_answer": "b"
+        },
+        {
+            "question": "Rodzaj pierogów z luźnym farszem mięsnym, potrawa kuchni rosyjskiej, to?",
+            "a": "Rusiszki",
+            "b": "Uchaty",
+            "c": "Pielmieni",
+            "d": "Matrioszki",
+            "correct_answer": "c"
+        },
+        {
+            "question": "Najszybszą odmianą chodu konia jest?",
+            "a": "Kłus",
+            "b": "Cwał",
+            "c": "Galop",
+            "d": "Rysia",
+            "correct_answer": "b"
+        },
+        {
+            "question": "Zamek Książąt Pomorskich możemy podziwiać w?",
+            "a": "Szczecinie",
+            "b": "Gdyni",
+            "c": "Sopocie",
+            "d": "Jastarni",
             "correct_answer": "a"
         }
     ]

@@ -11,7 +11,7 @@ let result = 0;
 let checkFlag = false;
 let selectedCategory = "";
 let questionTab = [];
-let tabCounter = 0; //counter tablicy
+let tabCounter = 0;
 let cor;
 let $userAnswer;
 
@@ -27,12 +27,12 @@ $('#start_button').on('click', () => {
 }) 
 
 const resetAll = () => {
-    questionCounter = 1;//zaczynam od pytania 1
-    result = 0;//liczba puntkow na start
-    checkFlag = false;//czy juz odpowiedziano
+    questionCounter = 1;
+    result = 0;
+    checkFlag = false;
     selectedCategory = "";
-    questionTab = [];//zerowanie tablicy
-    tabCounter = 0;//zerowanie licznika tablicy
+    questionTab = [];
+    tabCounter = 0;
     questionNumber.innerHTML = questionCounter;
     resultGame.innerHTML = result;
     $('.answer').removeClass('correct_answer');
@@ -92,7 +92,6 @@ const checkAnswer = () => {
         if(checkFlag === false) {
             $userAnswer = $('input[name=answer]:checked', '#quiz').val();
             if(cor === $userAnswer) {
-                //alert("Udzieliłeś poprawnej odpowiedzi");
                 swal("Poprawna odpowiedź", "", "success");
                 result += 100;
                 resultGame.innerHTML = result;
@@ -100,13 +99,11 @@ const checkAnswer = () => {
                 console.log(cor);
             } 
             else {
-                // alert("Niepoprawna odpowiedź");
                 swal("Błędna odpowiedź", "", "error");
             } 
             checkFlag = true;
         }
         else {
-            //alert('Już znasz prawidłową odpowiedź! Przejdź do następnego pytania');
             swal("Już znasz prawidłową odpowiedź! Przejdź do następnego pytania", "", "warning");
         }
         $('#next_question').css({'display':'block'});
@@ -126,7 +123,8 @@ const checkAnswer = () => {
              case 'd': {
                 $('#answer4').addClass('correct_answer');
                 break;
-             } 
+             }
+             default: console.log('Error');
         }
     })
 }
@@ -139,7 +137,6 @@ const nextQuestion = () => {
             $('#next_question').text('Zakończ Quiz');
         }
         if($('#next_question').text() == 'Zakończ Quiz' && questionCounter == 6) {
-            //alert('Twój wynik to: ' + result);
             swal("Twój wynik to:", "" + result + 'pkt', "info");
             newGameWindow();
             return;
@@ -158,6 +155,10 @@ function newGameWindow() {
     $('.categories').css({'display': 'none'});
     $('.content').css({'display': 'none'});
     $('#next_question').text('Następne pytanie');
+    $('#next_question').css({'display':'none'});
+    $('#check_answer').css({'display':'none'});
+    result = 0;
+    resultGame.innerHTML = result;
 }
 
 

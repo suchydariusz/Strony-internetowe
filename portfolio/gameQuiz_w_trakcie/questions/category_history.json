@@ -1,19 +1,67 @@
 {
     "questions": [
         {
-            "question": "Ile nóg ma ryba?",
-            "a": "1",
-            "b": "2",
-            "c": "3",
-            "d": "nie ma nóg",
+            "question": "W którym roku wybuchło powstanie warszawskie?",
+            "a": "1945",
+            "b": "1944",
+            "c": "1943",
+            "d": "1939",
             "correct_answer": "b"
         },
         {
-            "question": "Ile głów ma żyrafa?",
-            "a": "4",
-            "b": "2",
-            "c": "7",
-            "d": "nie wiem",
+            "question": "Kiedy Polska wstąpiła do NATO?",
+            "a": "1999",
+            "b": "2004",
+            "c": "2001",
+            "d": "1998",
+            "correct_answer": "a"
+        },
+        {
+            "question": "W którym wieku zakon krzyżacki wybudował zamek w Malborku?",
+            "a": "XII",
+            "b": "XIV",
+            "c": "XI",
+            "d": "XIII",
+            "correct_answer": "d"
+        },
+        {
+            "question": "Kto był przywódcą największego w historii Rzymu powstania niewolników?",
+            "a": "Spartakus",
+            "b": "Flawiusz",
+            "c": "Kriksos",
+            "d": "Juliusz Cezar",
+            "correct_answer": "a"
+        },
+        {
+            "question": "Który władca Polski zapoczątkował rozbicie dzielnicowe?",
+            "a": "Władysław Łokietek",
+            "b": "Bolesław Krzywousty",
+            "c": "Henryk Walezy",
+            "d": "Władysław Jagiełło",
+            "correct_answer": "b"
+        },
+        {
+            "question": "Jakie wydarzenie miało miejsce w 753 r. p.n.e.?",
+            "a": "Miała miejsce bitwa pod Maratonem",
+            "b": "Założono Konstantynopol",
+            "c": "Założono Rzym",
+            "d": "Wprowadzono kalendarz juliański",
+            "correct_answer": "c"
+        },
+        {
+            "question": "Jaki numer miał słynny polski dywizjon w bitwie o Anglię?",
+            "a": "303",
+            "b": "102",
+            "c": "44",
+            "d": "105",
+            "correct_answer": "a"
+        },
+        {
+            "question": "W wyniku rewolucji francuskiej doszło do obalenia monarchii?",
+            "a": "Burbonów",
+            "b": "Walezjuszów",
+            "c": "Karolingów",
+            "d": "Orleanów",
             "correct_answer": "a"
         }
     ]

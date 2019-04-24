@@ -39,6 +39,46 @@
             "c": "O wsi za miastem",
             "d": "O Syrence",
             "correct_answer": "d"
+        },
+        {
+            "question": "Jak nazywa się najdłuższa rzeka Europy:",
+            "a": "Wołga",
+            "b": "Dniepr",
+            "c": "Loara",
+            "d": "Dunaj",
+            "correct_answer": "a"
+        },
+        {
+            "question": "Który z półwyspów nie należy do Europy?",
+            "a": "Półwysep Apeniński",
+            "b": "Półwysep Gydański",
+            "c": "Półwysep Jutlandzki",
+            "d": "Półwysep Bretoński",
+            "correct_answer": "b"
+        },
+        {
+            "question": "Jak nazywa się najwyższy szczyt Europy?",
+            "a": "McKinley",
+            "b": "Rysy",
+            "c": "Mont Blanc",
+            "d": "Mount Everest",
+            "correct_answer": "c"
+        },
+        {
+            "question": "Na terenie którego europejskiego kraju występuje najwięcej wulkanów?",
+            "a": "Włoch",
+            "b": "Hiszpanii",
+            "c": "Norwegii",
+            "d": "Islandii",
+            "correct_answer": "d"
+        },
+        {
+            "question": "Jak nazywa się najniżej położony punkt w Europie?",
+            "a": "Nizina Środkowolitewska",
+            "b": "Niż Wschodniobałtycko-Białoruski",
+            "c": "Nizina Czarnomorska",
+            "d": "Nizina Nadkaspijska",
+            "correct_answer": "d"
         }
     ]
 }
