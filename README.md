@@ -12,4 +12,3 @@
   <li>Bootstrap</li>
  </ul>
 
-<br /><p>W najbliższym czasie dodana zostanie witryna bez bootstrapa w przeciwieństwie do tych które są wrzucone, może z jakimś ajaxem w ramach nauki lub coś bardziej JavaScript'owego</p>
