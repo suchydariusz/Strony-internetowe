@@ -118,7 +118,7 @@ body {
 
 /*------*/
 
-.about-header, .featured-header, .gallery-header {
+.about-header, .featured-header, .gallery-header, .price-header {
     margin: auto;
     position: absolute;
     top: 0; 
@@ -134,7 +134,7 @@ body {
     text-transform: uppercase;
 }
 
-.about-text-on-header, .featured-text-on-header, .gallery-text-on-header {
+.about-text-on-header, .featured-text-on-header, .gallery-text-on-header, .price-text-on-header {
     margin: auto;
     position: absolute;
     top: 0; 
@@ -498,7 +498,130 @@ p.text-over-bg {
     font-size: 0.8em;
 }
 
+/*----------------*/
 .section-service {
     /*padding jakis top*/
+    padding-top: 50px;
+    background-color: #fff;
+    
 }
 
+.service-people {
+    margin: auto;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.circle-people {
+    margin: auto;
+    position: absolute;
+    top: 60%;
+    left: -70%;
+    right: 0;
+    bottom: 0;
+    width: 40vw;
+}
+
+.service-right-icons {
+    padding-top: 220px;
+    text-align: center;
+}
+
+.service-right-icons h3 {
+    font-size: 1.2em;
+    padding-top: 10px;
+    text-transform: uppercase;
+    color: #444444;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.service-right-icons p {
+    font-size: 1em;
+    padding-top: 10px;
+    color: #878787;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.service-right-icons img {
+    padding-top: 10px;
+}
+
+.service-right-icons .col-md-6:first-child {
+    border-right: 1px solid #e6e6e6;
+}
+
+.service-top-border {
+    border-top: 1px solid #e6e6e6;
+}
+
+/*------------------*/
+.section-price-plan {
+    position: relative;
+    height: 850px;
+    z-index: 1;
+}
+
+.section-price-plan::after {
+    content: "";
+    background: linear-gradient(rgba(255, 228, 0, 0.9), rgba(255, 228, 0, 0.9)), url(../img/price/price-image-background.jpg);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.price-header {
+    opacity: 0.16;
+    color: #000;
+}
+
+.price-offer  {
+    padding-top: 200px;
+    text-align: center;
+}
+
+.price-offer .card-title {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+}
+
+.price-offer h3.card-text, .price-offer p.card-text {
+    color: #fff;
+    font-family: 'Muli', sans-serif;
+}
+
+
+.price-offer .card-img-overlay {
+    padding-top: 8%;
+}
+
+.card-text-bigger {
+    font-size: 1.6em;
+}
+
+.price-list li{
+    color: #808080;
+}
+
+.price-button {
+    margin-top: 3px;
+    width: 20rem;
+    padding: 8px;
+    background-color: #fff;
+    border: 0px;
+    font-family: 'Muli', sans-serif;
+    font-weight: bold;
+    color: #444444;
+    cursor: pointer;
+}
+
+.card-img-top , .card{
+    border-radius: 0;
+}
