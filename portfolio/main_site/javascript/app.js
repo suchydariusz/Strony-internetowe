@@ -83,7 +83,13 @@ $(document).ready(function(){
 
 //----------scroll effect------------
 var heightDirectContact = $('.footer-col-right').offset().top;
-$('.footer-col-right').hide();
+if($(window).height() <= 1080) {
+    $('.footer-col-right').hide();
+}
+else {
+    $('.footer-col-right').show();
+}
+
 var heightMyPhoto = $('#my-image').offset().top;
 
 $(function() {
@@ -100,7 +106,6 @@ $(window).scroll(function() {
     if(heightSite > heightDirectContact-(heightDirectContact * 0.2)) {
         $('.footer-col-right').fadeIn(3000);
     }
-    
 });
 
 //----------scroll effect end------------
@@ -108,14 +113,14 @@ $(window).scroll(function() {
 //----------technologies img section------------
 $(function() {
     $('.technologies-logo').on('mouseover', function() {
-        $(this).animate({
+        $(this).stop().animate({
             opacity: 0.0,
-            paddingTop: '+=30'
-        }, 500, function() {
-            $(this).animate({
+            paddingTop: '10'
+        }, 300, function() {
+            $(this).stop().animate({
                 opacity: 1,
-                paddingTop: '-=30'
-            }, 500);
+                paddingTop: '0'
+            }, 300);
         });
     });
 });

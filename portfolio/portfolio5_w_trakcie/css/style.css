@@ -118,7 +118,7 @@ body {
 
 /*------*/
 
-.about-header, .featured-header, .gallery-header, .price-header {
+.about-header, .featured-header, .gallery-header, .price-header, .team-header, .contact-header{
     margin: auto;
     position: absolute;
     top: 0; 
@@ -134,7 +134,7 @@ body {
     text-transform: uppercase;
 }
 
-.about-text-on-header, .featured-text-on-header, .gallery-text-on-header, .price-text-on-header {
+.about-text-on-header, .featured-text-on-header, .gallery-text-on-header, .price-text-on-header, .team-text-on-header, .contact-text-on-header {
     margin: auto;
     position: absolute;
     top: 0; 
@@ -625,3 +625,53 @@ p.text-over-bg {
 .card-img-top , .card{
     border-radius: 0;
 }
+
+.card {
+    width: 20rem;
+}
+/*------------------*/
+.section-team {
+    padding-bottom: 100px;
+}
+
+.team-photos  {
+    padding-top: 230px;
+    text-align: center;
+}
+
+.team-list .list-group-item:first-child {
+    border-bottom: 2px dashed #b7b7b7;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    color: #444444;
+}
+.team-list .list-group-item:nth-child(2) {
+    border-top: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #4f4f4f;
+}
+/*------------------*/
+.section-contact {
+    background-color: #f0f0f0;
+    background-image: url(../img/contact/world-map.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 750px;
+}
+
+.contact-form {
+    padding: 200px 100px 0 100px;
+}
+
+.contact-form .form-row {
+    padding-top: 20px;
+}
+
+.contact-form::placeholder {
+    color: #808080;
+}
+
+.contact-form .optimize-purchase-button {
+    margin-top: 20px;
+}
+/*------------------*/

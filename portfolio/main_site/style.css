@@ -151,6 +151,10 @@ h1 {
     box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 1);
 }
 
+.text-right-photo p {
+    padding-right: 3%;
+}
+
 .radius-data {
     width: 150px;
     height: 150px;
@@ -201,7 +205,8 @@ h1 {
 }
 
 .tech-pad {
-    margin-left: 16.6%;
+    /*margin-left: 16.6%;*/
+    padding: 0 12% 0 12%;
     background-color: #fff;
 }
 
@@ -211,7 +216,7 @@ h1 {
 
 .future-image {
     padding: 20px 0px;
-    width: 50%;
+    width: 40%;
 }
 
 .over-future {
@@ -328,6 +333,10 @@ h1 {
 .h1-center-padding {
     text-align: center;
     padding-bottom: 40px;
+}
+
+.under-about-me-section {
+    padding-top: 40px;
 }
 /*sections aboutme, portfolio, contact end*/
 
@@ -457,10 +466,11 @@ footer .footer-opacity-text a:hover{
         margin-bottom: 20px;
     }
 
-    .text-right-photo {
+
+    .text-right-photo p {
         text-align: center;
+        padding: 10% 3% 0 0;
     }
-    
     .radius-data {
         margin-bottom: 20px;
         margin-left: auto;
@@ -521,7 +531,7 @@ footer .footer-opacity-text a:hover{
     
 }
 
-@media screen and (max-width: 800px) and (min-width: 700px) {
+@media screen and (max-width: 1242px) and (min-width: 700px) {
 
     h1 {
         font-size: 220%;
@@ -549,17 +559,37 @@ footer .footer-opacity-text a:hover{
     }
 
     .tech-pad {
-        padding-left: 16.5%;
+        padding: 0 12%;
     }
 
     .footer-col-right {
         margin-top: 0%;
     }
 
+
 }
 
-@media screen and (min-width: 1520px) {
+@media screen and (min-width: 1520px) and (max-width: 2000px) {
     #portfolio {
         height: 1300px;
     }
+}
+
+@media screen and (min-width: 2000px) {
+    .card-img-overlay {
+        padding-top: 60px;
+    }
+
+    #portfolio {
+        height: 1600px;
+    }
+
+    #aboutme, #portfolio, #portfolio, .text-under-tech {
+        padding-top: 7%;
+    }
+
+    .footer-col-right {
+        display: block;
+    }
+
 }
